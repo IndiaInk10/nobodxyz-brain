@@ -1,12 +1,14 @@
 @use "./base.scss";
 
-// D2 diagrams rendered at build time
+// D2 diagrams rendered at build time.
+// Wide diagrams scroll horizontally instead of shrinking below legibility.
 figure.d2 {
   margin: 1.2rem 0;
   text-align: center;
+  overflow-x: auto;
 
   svg {
-    max-width: 100%;
+    max-width: none;
     height: auto;
   }
 }
