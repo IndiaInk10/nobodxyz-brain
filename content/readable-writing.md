@@ -12,7 +12,7 @@ tags:
 
 > 작성 2026-08-31 · 자료 조사: Claude · 요약/답변: 사용자 · 근거: 실험 연구(2024–2026) + 인지과학 + 작가 경험칙의 수렴
 
-## ❓ 이 문서가 답하는 질문
+## :circle-help: 이 문서가 답하는 질문
 
 - Q1. 왜 어떤 문장은 읽기 힘든가? — 독자의 머릿속에서 무슨 일이 벌어지나
 - Q2. 한 문장에는 왜 하나의 뜻만 담아야 하는가?
@@ -20,7 +20,7 @@ tags:
 - Q4. 왜 많이 아는 사람일수록 못 읽게 쓰는가?
 - Q5. 무엇을 덜어내야 하는가 — 그리고 덜어내면 안 되는 경우는?
 
-## 🧠 핵심 — 내 말로 3줄
+## :brain: 핵심 — 내 말로 3줄
 
 > [!warning] 본문을 안 보고 써보세요
 > 안 보고 쓰기 = 자기 설명 + 인출 연습. 노트에 3줄로.
@@ -34,28 +34,28 @@ tags:
 - **주어–동사 사이의 거리** — 주어를 읽은 독자는 동사가 나올 때까지 주어를 작업기억에 붙들고 있어야 한다. 사이에 긴 수식절이 끼면 그만큼 부담이 쌓인다(Gopen & Swan의 제1원칙: ==주어와 동사를 붙여라==).
 - **오독 후 재해석(garden path)** — 예측이 빗나가면 독자는 되돌아가 다시 해석해야 하고, 이 비용은 실험에서 반복 확인됐다. 더 나쁜 건, 재해석 후에도 처음의 오독이 남는다는 것.
 
-<svg viewBox="0 0 560 190" role="img" aria-label="주어-동사 거리와 작업기억 부담" style="max-width:100%;height:auto">
-  <g font-size="12" fill="currentColor">
-    <text x="20" y="30" font-weight="700">주어</text>
-    <text x="470" y="30" font-weight="700">…동사</text>
-    <text x="140" y="30" opacity=".55">— 긴 수식절 (28어절) —</text>
-  </g>
-  <path d="M45,45 C150,95 380,95 490,45" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="5 4"/>
-  <text x="280" y="92" font-size="11" text-anchor="middle" fill="#c0392b">주어를 계속 기억해야 함 = 부담 누적</text>
-  <g font-size="12" fill="currentColor">
-    <text x="20" y="135" font-weight="700">주어</text>
-    <text x="70" y="135" font-weight="700">동사.</text>
-    <text x="130" y="135" opacity=".55">나머지 정보는 다음 문장에.</text>
-  </g>
-  <path d="M45,148 C55,165 75,165 85,148" fill="none" style="stroke:var(--secondary)" stroke-width="2"/>
-  <text x="280" y="180" font-size="11" text-anchor="middle" style="fill:var(--secondary)">즉시 해소 = 작업기억 여유 → 내용에 쓸 수 있음</text>
-</svg>
+```d2
+direction: right
+bad: "✗ 멀다 — 작업기억 부담 누적" {
+  direction: down
+  s: "주어" { class: bad }
+  v: "…동사" { class: bad }
+  s -> v: "긴 수식절 28어절"
+}
+good: "✓ 붙인다 — 즉시 해소" {
+  direction: down
+  s: "주어" { class: good }
+  v: "동사." { class: good }
+  n: "나머지는 다음 문장" { class: good }
+  s -> v -> n
+}
+```
 
-*주어–동사 거리가 곧 독자의 작업기억 부담이다.*
+*위: 주어를 읽고 동사가 나올 때까지 28어절 동안 주어를 붙들고 있어야 한다. 아래: 즉시 해소되어 작업기억이 내용에 쓰인다. 주어–동사 거리가 곧 독자의 작업기억 부담이다.*
 
-> [!failure] ✗ 이 제도는, 지난해 국회에서 여야가 세 차례의 공청회와 두 번의 협상 결렬 끝에 가까스로 합의한 절차에 따라, 시행된다.
+> [!failure] 이 제도는, 지난해 국회에서 여야가 세 차례의 공청회와 두 번의 협상 결렬 끝에 가까스로 합의한 절차에 따라, 시행된다.
 
-> [!success] ✓ 이 제도는 올해 시행된다. 지난해 국회에서 여야가 세 차례 공청회와 두 번의 결렬 끝에 합의한 결과다.
+> [!success] 이 제도는 올해 시행된다. 지난해 국회에서 여야가 세 차례 공청회와 두 번의 결렬 끝에 합의한 결과다.
 
 출처: [Gopen & Swan 1990, *American Scientist*](https://www.gatsby.ucl.ac.uk/~pel/misc/gopen_swan.pdf) · [Slattery et al. 2013, *JML* — 오독의 잔존](https://www.sciencedirect.com/science/article/abs/pii/S0749596X13000247)
 
@@ -81,28 +81,20 @@ tags:
 
 문장들이 "아는 것 → 새 것 → (그 새 것이 다음 문장의) 아는 것 → …"으로 사슬처럼 이어질 때 글이 "흐른다"고 느껴진다. 이는 [[learning-science|학습의 뇌과학]]에서 본 "사전 지식에 새 것을 연결하기"와 같은 원리다.
 
-<svg viewBox="0 0 560 176" role="img" aria-label="given-new 사슬" style="max-width:100%;height:auto">
-  <g fill="none" stroke="currentColor" stroke-width="1.5" opacity=".8">
-    <rect x="20" y="12" width="240" height="34" rx="8"/>
-    <rect x="160" y="66" width="240" height="34" rx="8"/>
-    <rect x="300" y="120" width="240" height="34" rx="8"/>
-  </g>
-  <g font-size="12" fill="currentColor" text-anchor="middle">
-    <text x="90" y="34">아는 것</text><text x="205" y="34" font-weight="700">새 것 A</text>
-    <text x="230" y="88">A (이제 아는 것)</text><text x="345" y="88" font-weight="700">새 것 B</text>
-    <text x="370" y="142">B (이제 아는 것)</text><text x="485" y="142" font-weight="700">새 것 C</text>
-  </g>
-  <g style="stroke:var(--secondary)" stroke-width="2" fill="none">
-    <path d="M205,46 C205,58 222,54 226,66"/>
-    <path d="M345,100 C345,112 362,108 366,120"/>
-  </g>
-</svg>
+```d2
+direction: right
+s1: "문장 1\n아는 것 → 새 것 A"
+s2: "문장 2\nA (이제 아는 것) → 새 것 B"
+s3: "문장 3\nB (이제 아는 것) → 새 것 C"
+s1 -> s2: "A가 구정보로" { class: accent }
+s2 -> s3: "B가 구정보로" { class: accent }
+```
 
 *문장 끝의 신정보가 다음 문장 앞의 구정보가 되는 사슬 구조.*
 
-> [!failure] ✗ 세포 내 단백질 분해를 담당하는 소기관이 리소좀이다. 오토파지 과정에서 리소좀이 핵심 역할을 한다.
+> [!failure] 세포 내 단백질 분해를 담당하는 소기관이 리소좀이다. 오토파지 과정에서 리소좀이 핵심 역할을 한다.
 
-> [!success] ✓ 세포 안에는 단백질 분해를 담당하는 소기관이 있다 — 리소좀이다. 이 리소좀이 핵심 역할을 하는 과정이 오토파지다.
+> [!success] 세포 안에는 단백질 분해를 담당하는 소기관이 있다 — 리소좀이다. 이 리소좀이 핵심 역할을 하는 과정이 오토파지다.
 
 출처: [Gopen & Swan 1990 — topic/stress position](https://www.gatsby.ucl.ac.uk/~pel/misc/gopen_swan.pdf)
 
@@ -116,9 +108,9 @@ Pinker의 답: **지식의 저주(curse of knowledge)** — "좋은 사람이 �
 - **좀비 명사 제거** — 동사를 명사화하면("검토하다"→"검토를 수행하다") 행위자와 행위가 숨는다. 동사로 되돌릴 것.
 - **초고를 남에게 읽히기** — 자기 눈으로는 저주를 못 본다. 이 문서 워크플로우에서 Claude/사용자가 서로의 초고를 읽는 것이 이 장치다.
 
-> [!failure] ✗ 본 시스템은 사용자 인증 실패 시 재시도 횟수 제한 정책의 적용을 통해 무차별 대입 공격에 대한 대응을 수행한다.
+> [!failure] 본 시스템은 사용자 인증 실패 시 재시도 횟수 제한 정책의 적용을 통해 무차별 대입 공격에 대한 대응을 수행한다.
 
-> [!success] ✓ 비밀번호를 다섯 번 틀리면 계정이 잠긴다. 공격자가 무한정 대입해보지 못하게 하기 위해서다.
+> [!success] 비밀번호를 다섯 번 틀리면 계정이 잠긴다. 공격자가 무한정 대입해보지 못하게 하기 위해서다.
 
 출처: [Pinker — APS Observer](https://www.psychologicalscience.org/observer/the-curse-of-knowledge-pinker-describes-a-key-cause-of-bad-writing) · Pinker 2014, *The Sense of Style*
 
@@ -135,9 +127,9 @@ Zinsser: "좋은 글의 비밀은 모든 문장을 가장 깨끗한 부품만 �
 
 출처: [Orwell 1946, "Politics and the English Language"](https://themindcollection.com/orwells-writing-rules/) · Zinsser, *On Writing Well* · [능동/수동 이해 실험](https://www.researchgate.net/publication/396687358_Experimental_Study_In_Comparing_The_Effects_Of_Active_And_Passive_Sentences_On_Reader_Comprehension_In_Academic_Texts) · [2025 아이트래킹 가독성 연구](https://arxiv.org/html/2502.11150v1)
 
-## ✅ 셀프 테스트
+## :circle-check: 셀프 테스트
 
-> [!tip] 펼치기 전에 소리 내어, 또는 손으로 먼저 답해보세요. 그 몇 초가 학습이에요.
+> [!tip] 펼치기 전에 소리 내어 말하거나 손으로 직접 써보세요. 그 몇 초가 학습이에요.
 
 <details><summary>Q1. 주어–동사 거리가 가독성을 해치는 기제를 작업기억으로 설명하라.</summary>
 
@@ -175,7 +167,7 @@ Zinsser: "좋은 글의 비밀은 모든 문장을 가장 깨끗한 부품만 �
 
 </details>
 
-## 📅 복습 로그
+## :calendar-days: 복습 로그
 
 > [!tip] 복습할 땐 셀프 테스트를 다시 풀고, **실전 적용 1회** — 최근에 쓴 글 하나를 위 원칙으로 고쳐보세요.
 
@@ -185,8 +177,3 @@ Zinsser: "좋은 글의 비밀은 모든 문장을 가장 깨끗한 부품만 �
 - [ ] +2주 (09-14)
 - [ ] +1달 (09-30)
 
-## 🕳️ 아직 모르는 것 / 다음 질문
-
-- 한국어에서 주어-술어 거리 연구는?
-- 문단 층위의 가독성 원칙은?
-- 기술 문서 vs 에세이의 차이는? → 어투 쪽은 [[tone-of-writing|어투의 과학]]

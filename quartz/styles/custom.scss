@@ -1,3 +1,35 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// D2 diagrams rendered at build time
+figure.d2 {
+  margin: 1.2rem 0;
+  text-align: center;
+
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// Lucide icons from :icon-name:
+span.icon {
+  display: inline-block;
+  vertical-align: -0.15em;
+  margin-right: 0.3em;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+  }
+}
+
+pre.d2-error {
+  border: 1px solid #c0392b;
+  color: #c0392b;
+  padding: 0.6rem 0.9rem;
+  white-space: pre-wrap;
+  font-size: 0.85rem;
+}

@@ -21,6 +21,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import ReviewLog from "./ReviewLog"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
@@ -48,6 +49,7 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  ReviewLog,
   Flex,
   ConditionalRender,
 }

@@ -6,7 +6,9 @@
 
 - **문서의 원본은 `content/*.md`**. `_template.md` 포맷을 따라 마크다운으로 쓴다.
   - 개념은 frontmatter `tags`로 붙인다 → 그래프 뷰의 노드가 된다. 문서끼리는 `[[slug|표시명]]` 위키링크.
-  - 다이어그램은 인라인 SVG(캔버스 가장자리에 요소가 닿지 않게 여백 확보), 셀프 테스트는 `<details>`, 예시·판별법은 `> [!example]` 콜아웃, 개작 예시는 `> [!failure]` / `> [!success]`.
+  - **다이어그램은 ```d2 코드 블록** (빌드 시 `@terrastruct/d2` WASM으로 SVG 렌더, ELK 레이아웃, 자동 배치라 한글 라벨이 겹치지 않음). 색 강조는 `{ class: good }` / `bad` / `accent` / `muted`. 곡선·차트처럼 D2로 못 그리는 것만 인라인 SVG.
+  - **아이콘은 이모지 대신 `:icon-name:`** (Lucide, 빌드 시 인라인 SVG로 치환). 섹션 표준: `:circle-help:` 질문 · `:brain:` 내 말로 3줄 · `:circle-check:` 셀프 테스트 · `:calendar-days:` 복습 로그 · `:lightbulb:` 다음 질문 · `:triangle-alert:` 경계 조건 · `:landmark:` 원전 / `:refresh-cw:` 최신.
+  - 셀프 테스트는 `<details>`, 예시·판별법은 `> [!example]` 콜아웃, 개작 예시는 `> [!failure]` / `> [!success]` (콜아웃이 아이콘을 붙이므로 ✗/✓ 텍스트는 넣지 않는다).
 - **배포**: `git push` → GitHub(`IndiaInk10/nobodxyz-brain`, main) → Vercel 자동 배포 → https://nobodxyz-brain.vercel.app
   - 로컬 미리보기: `npx quartz build --serve --port 8080`
   - git 원격 `origin`은 SSH 별칭 `github-personal`(개인 계정). `upstream`은 Quartz 원본(`npx quartz update`용).
@@ -20,7 +22,7 @@
   - 정의, 설명, 표, 다이어그램 캡션 등 정보 전달부 전부.
   - 짧고 밀도 높게. 한 문장에 뜻 하나(주어·술어 하나씩).
 - **독자가 행동하는 지점 = 말 걸기** (해요체, 2인칭)
-  - 셀프 테스트 안내("펼치기 전에 먼저 답해보세요"), 예시 도입("당신이 ~라면"), 사용법 힌트.
+  - 셀프 테스트 안내("펼치기 전에 손으로 직접 써보세요"), 예시 도입("당신이 ~라면"), 사용법 힌트.
   - 근거: 개인화 원리 — 말 거는 어투가 학습 성과를 높임(파지 d=0.30, 전이 d=0.54, Ginns 2013 메타분석).
 - **하지 않는 것**
   - 본문 전체를 대화체로 채우기 (경계조건: 35분 넘는 긴 자료에서 효과 소멸).
@@ -35,4 +37,4 @@
 
 - 일반 학습 문서에는 논문 인용 불필요. 연구 자체를 다루는 문서에만 출처를 붙인다.
 - 근거를 붙일 때는 검증된 것만: Crossref/PubMed 등 학술 DB에서 실재 확인, 수치는 초록에서 직접 확인. 프리프린트는 프리프린트라고 표기.
-- 🧠 "내 말로 3줄"과 셀프 테스트 답변 칸은 사용자 몫 — Claude가 채우지 않는다.
+- :brain: "내 말로 3줄"과 셀프 테스트 답변 칸은 사용자 몫 — Claude가 채우지 않는다.

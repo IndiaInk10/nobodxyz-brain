@@ -222,6 +222,9 @@ importers:
       esbuild:
         specifier: ^0.25.9
         version: 0.25.12
+      lucide-static:
+        specifier: ^1.37.0
+        version: 1.37.0
       prettier:
         specifier: ^3.6.2
         version: 3.9.6
@@ -1895,6 +1898,9 @@ packages:
 
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
+
+  lucide-static@1.37.0:
+    resolution: {integrity: sha512-uAp0oHMWE8T6XycokgjswDF3epVTFhUJQG4EdMsZOC/Jbmi5dFvdto0c6gcVQqswQDIGWguSvbJ0got6Vy3RXQ==}
 
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
@@ -4137,6 +4143,8 @@ snapshots:
       unicode-trie: 2.0.0
 
   longest-streak@3.1.0: {}
+
+  lucide-static@1.37.0: {}
 
   markdown-table@3.0.4: {}
 

@@ -11,7 +11,7 @@ tags:
 
 > 작성 2026-08-31 · 자료 조사: Claude · 요약/답변: 사용자 · 근거: 개인화 원리 메타분석(2013–2025) + 작가 경험칙
 
-## ❓ 이 문서가 답하는 질문
+## :circle-help: 이 문서가 답하는 질문
 
 - Q1. 왜 "말 거는" 글이 더 잘 배워지는가?
 - Q2. 대화체가 통하지 않는 경우는 언제인가?
@@ -19,7 +19,7 @@ tags:
 - Q4. 작가들은 "목소리"에 대해 무엇이라 하는가?
 - Q5. 한국어에서는 어떤 문체를 어디에 쓰는가?
 
-## 🧠 핵심 — 내 말로 3줄
+## :brain: 핵심 — 내 말로 3줄
 
 > [!warning] 본문을 안 보고 써보세요
 > 안 보고 쓰기 = 자기 설명 + 인출 연습. 노트에 3줄로.
@@ -32,29 +32,20 @@ tags:
 
 기제는 **사회적 에이전시 이론**: 글이 말을 걸면 뇌는 상대를 "대화 파트너"로 인식하고, 대화 상대에게 하듯 ==이해하려는 처리 노력을 더 쓴다==. Ginns의 메타분석에서 이 경로가 수치로 확인됐다 — 친근감 d=0.46, 인지 처리 노력 d=0.62.
 
-<svg viewBox="0 0 560 110" role="img" aria-label="사회적 에이전시 경로" style="max-width:100%;height:auto">
-  <g fill="none" stroke="currentColor" stroke-width="1.5" opacity=".8">
-    <rect x="15" y="35" width="115" height="44" rx="8"/>
-    <rect x="160" y="35" width="115" height="44" rx="8"/>
-    <rect x="305" y="35" width="115" height="44" rx="8"/>
-    <rect x="450" y="35" width="95" height="44" rx="8"/>
-  </g>
-  <g style="stroke:var(--secondary)" stroke-width="2" fill="none">
-    <path d="M130,57 L160,57"/><path d="M275,57 L305,57"/><path d="M420,57 L450,57"/>
-  </g>
-  <g font-size="11.5" fill="currentColor" text-anchor="middle">
-    <text x="72" y="53">말 거는 어투</text><text x="72" y="69" font-size="10" opacity=".6">"당신", "우리"</text>
-    <text x="217" y="53">대화 상대로</text><text x="217" y="69" font-size="10" opacity=".6">인식 (사회적 반응)</text>
-    <text x="362" y="53">처리 노력 ↑</text><text x="362" y="69" font-size="10" opacity=".6">d=0.62</text>
-    <text x="497" y="61">학습 ↑</text>
-  </g>
-</svg>
+```d2
+direction: right
+a: "말 거는 어투 (당신 · 우리)"
+b: "대화 상대로 인식 (사회적 반응)"
+c: "처리 노력 ↑ (d=0.62)"
+d: "학습 ↑" { class: good }
+a -> b -> c -> d
+```
 
 *사회적 에이전시 이론: 어투가 사회적 반응을 켜고, 그 반응이 인지를 끌어올린다.*
 
-> [!failure] ✗ 본 절에서는 리소좀의 기능이 서술된다. 학습자는 세 가지 기능을 숙지해야 한다.
+> [!failure] 본 절에서는 리소좀의 기능이 서술된다. 학습자는 세 가지 기능을 숙지해야 한다.
 
-> [!success] ✓ 이제 리소좀이 하는 일을 봅시다. 당신의 세포 안에서 지금도 벌어지고 있는 세 가지 일입니다.
+> [!success] 이제 리소좀이 하는 일을 봅시다. 당신의 세포 안에서 지금도 벌어지고 있는 세 가지 일입니다.
 
 출처: [2025, *Educational Research Review* — Mayer 원리 메타분석](https://doi.org/10.1016/j.edurev.2025.100730) · [Ginns et al. 2013, *Educational Psychology Review*](https://link.springer.com/article/10.1007/s10648-013-9228-0) · [Moreno & Mayer 2000 (원전)](https://www.researchgate.net/publication/232481296_A_Personalization_Effect_in_Multimedia_Learning_Students_Learn_Better_When_Words_Are_in_Conversational_Style_Rather_Than_Formal_Style)
 
@@ -111,16 +102,16 @@ tags:
 핵심은 존댓말 등급이 아니라 **"독자를 직접 지칭하고 참여시키는가"**다. 그래서 학습 문서의 검증된 전략은 ==하이브리드==:
 
 - 본문 서술은 **하다체** — 짧고 밀도 높게(인지 부하 최소화, [[learning-science|학습의 뇌과학]] 참고)
-- 독자가 행동해야 하는 지점만 **말 걸기** — 질문형 제목, "펼치기 전에 먼저 답해보세요", "당신이 ~라면" 같은 도입
+- 독자가 행동해야 하는 지점만 **말 걸기** — 질문형 제목, "펼치기 전에 손으로 직접 써보세요", "당신이 ~라면" 같은 도입
 
 > [!example] 예시
 > 바로 이 문서가 그 전략으로 쓰였다. 본문은 하다체, 셀프 테스트 안내와 예시 도입만 말을 건다. 어투 문서가 어투의 실물 견본이 되도록.
 
 출처: 직접 실험 부재를 명시 — 근거는 Q1의 개인화 원리 메타분석에서의 추론
 
-## ✅ 셀프 테스트
+## :circle-check: 셀프 테스트
 
-> [!tip] 펼치기 전에 소리 내어, 또는 손으로 먼저 답해보세요. 그 몇 초가 학습이에요.
+> [!tip] 펼치기 전에 소리 내어 말하거나 손으로 직접 써보세요. 그 몇 초가 학습이에요.
 
 <details><summary>Q1. 개인화 원리란? 효과 크기와 그 기제(이론 이름 포함)를 말하라.</summary>
 
@@ -152,7 +143,7 @@ tags:
 
 </details>
 
-## 📅 복습 로그
+## :calendar-days: 복습 로그
 
 > [!tip] 복습할 땐 셀프 테스트를 다시 풀고, 실전 적용 1회 — 최근 쓴 글 하나의 어투를 목적에 맞게 고쳐보세요.
 
@@ -162,7 +153,3 @@ tags:
 - [ ] +2주 (09-14)
 - [ ] +1달 (09-30)
 
-## 🕳️ 아직 모르는 것 / 다음 질문
-
-- 한국어 문체 효과를 직접 실험한 연구는 정말 없나?
-- AI가 쓴 글의 어투는 어떻게 지각되나?
