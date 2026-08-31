@@ -82,7 +82,7 @@ tags:
 Q3의 깨어있는 휴식과 합치면 같은 처방이 두 번 나온다: **휴식의 가치는 길이가 아니라 입력의 낮음에 있다.**
 
 ```d2
-direction: right
+direction: down
 focus: "집중 작업"
 low: "저부하 휴식 — 산책·창밖·멍때리기" { class: good }
 high: "화면 휴식 — 폰·영상" { class: bad }
