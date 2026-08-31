@@ -36,9 +36,9 @@ tags:
 
 > [!info]- 연구 계보
 > 원전 · **2011** Ariga & Lleras, *Cognition* — 짧은 딴 일 2회가 50분 과제의 경계 감쇠를 제거
-> 재검 · 후속 재현 — 목표 습관화 기제는 불지지, 휴식 자체의 감쇠 완화는 지지 `기제 재현 논란`
+> 재검 · **2014** Helton & Russell, *Experimental Brain Research* — 휴식은 감쇠를 줄였지만 목표 전환(짧은 딴 일) 효과는 재현 실패 `기제 재현 논란`
 
-출처: [Ariga & Lleras 2011, *Cognition*](https://www.sciencedirect.com/science/article/abs/pii/S0010027710002994)
+출처: [Ariga & Lleras 2011, *Cognition*](https://www.sciencedirect.com/science/article/abs/pii/S0010027710002994) · [Helton & Russell 2014, *Exp Brain Res*](https://link.springer.com/article/10.1007/s00221-014-3865-5)
 
 ### Q2. 미세 휴식은 무엇을 회복시키고, 무엇은 회복시키지 못하는가?
 

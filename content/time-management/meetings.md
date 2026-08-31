@@ -37,7 +37,7 @@ tags:
 > 원전 · **2005** Mark et al., *CHI* — 조각난 작업의 실측: 중단된 작업 대부분은 당일 재개, 재개 전 평균 2개 이상의 다른 활동 경유
 > 검증 · **2023** 인용 추적(2차 자료) — "23분 15초"는 논문 아닌 2006 갤럽 인터뷰 유래 `수치 신화`
 
-출처: [Mark et al. 2005, No Task Left Behind (PDF)](https://interruptions.net/literature/Mark-CHI08.pdf) · [갤럽 인터뷰 2006](https://news.gallup.com/businessjournal/23146/too-many-interruptions-work.aspx) · [인용 추적 (2차)](https://blog.oberien.de/2023/11/05/23-minutes-15-seconds.html)
+출처: [Mark et al. 2005, No Task Left Behind (PDF)](https://ics.uci.edu/~gmark/CHI2005.pdf) · [갤럽 인터뷰 2006](https://news.gallup.com/businessjournal/23146/too-many-interruptions-work.aspx) · [인용 추적 (2차)](https://blog.oberien.de/2023/11/05/23-minutes-15-seconds.html)
 
 ### Q2. 방해·미팅의 실제 비용은 무엇인가?
 
