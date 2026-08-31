@@ -49,19 +49,28 @@ let idleTimer: NodeJS.Timeout | undefined
 
 /**
  * The D2 WASM worker keeps the Node event loop alive, which would hang
- * `quartz build`. Reuse one instance across files and terminate the worker
- * after a short idle period so the process can exit once the build is done.
+ * `quartz build`. Reuse one instance across files, but only schedule the
+ * worker shutdown AFTER rendering finishes — arming the timer while a
+ * render is in flight can kill the worker mid-compile (slow cold WASM on
+ * CI) and leave its promise pending forever.
  */
 function getD2(): D2 {
+  if (idleTimer) {
+    clearTimeout(idleTimer)
+    idleTimer = undefined
+  }
   if (!instance) instance = new D2()
+  return instance
+}
+
+function scheduleShutdown(): void {
   if (idleTimer) clearTimeout(idleTimer)
   idleTimer = setTimeout(() => {
     ;(instance as unknown as D2Internal | undefined)?.worker?.terminate?.()
     instance = undefined
     idleTimer = undefined
-  }, 1500)
+  }, 2000)
   idleTimer.unref()
-  return instance
 }
 
 /**
@@ -107,7 +116,8 @@ export const D2Diagrams: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
           if (blocks.length === 0) return
 
           const d2 = getD2()
-          for (const node of blocks) {
+          try {
+            for (const node of blocks) {
             const source = `${opts.prelude}\n${node.value}`
             let html: string
             try {
@@ -128,9 +138,12 @@ export const D2Diagrams: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
               console.warn(`[D2Diagrams] ${file.path ?? "?"}: ${msg}`)
               html = `<pre class="d2-error">D2 render error: ${escapeHtml(msg)}\n\n${escapeHtml(node.value)}</pre>`
             }
-            const out = node as unknown as Html
-            out.type = "html"
-            out.value = html
+              const out = node as unknown as Html
+              out.type = "html"
+              out.value = html
+            }
+          } finally {
+            scheduleShutdown()
           }
         },
       ]

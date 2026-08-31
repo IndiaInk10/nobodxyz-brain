@@ -30,9 +30,11 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#faf9f6",
           lightgray: "#e3e0d8",
-          gray: "#b5b1a6",
-          darkgray: "#4e4e4e",
-          dark: "#1f2328",
+          gray: "#8f8a7e",
+          // 본문 색: 명도 대비가 높을수록 읽기 속도·정확도 증가(대비 감도 연구,
+          // positive polarity 연구와 동일 계열). #2a2d31 on #faf9f6 ≈ 13.5:1 (AAA 초과)
+          darkgray: "#2a2d31",
+          dark: "#14161a",
           secondary: "#0b6e4f",
           tertiary: "#8a4baf",
           highlight: "rgba(11, 110, 79, 0.10)",
@@ -41,9 +43,11 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#faf9f6",
           lightgray: "#e3e0d8",
-          gray: "#b5b1a6",
-          darkgray: "#4e4e4e",
-          dark: "#1f2328",
+          gray: "#8f8a7e",
+          // 본문 색: 명도 대비가 높을수록 읽기 속도·정확도 증가(대비 감도 연구,
+          // positive polarity 연구와 동일 계열). #2a2d31 on #faf9f6 ≈ 13.5:1 (AAA 초과)
+          darkgray: "#2a2d31",
+          dark: "#14161a",
           secondary: "#0b6e4f",
           tertiary: "#8a4baf",
           highlight: "rgba(11, 110, 79, 0.10)",
