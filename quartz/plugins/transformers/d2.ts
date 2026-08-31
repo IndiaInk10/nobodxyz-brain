@@ -92,7 +92,8 @@ function sizeFromViewBox(svg: string, maxWidth: number, scale: number): string {
   if (!m) return trimmed
   const [vw, vh] = [Number(m[1]), Number(m[2])]
   if (!vw || !vh) return trimmed
-  const factor = Math.min(scale, maxWidth / vw)
+  // Never shrink below 0.8: text stays legible and wide diagrams scroll instead.
+  const factor = Math.max(Math.min(scale, maxWidth / vw), 0.8)
   const [w, h] = [Math.round(vw * factor), Math.round(vh * factor)]
   return `${trimmed.slice(0, start)}<svg width="${w}" height="${h}"${trimmed.slice(start + 4)}`
 }
