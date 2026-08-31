@@ -112,6 +112,12 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
           console.log(`[markdown] ${fp} -> ${file.data.slug} (${perf.timeSince()})`)
         }
       } catch (err) {
+        // a watched file can vanish mid-rebuild (atomic saves replace the
+        // file briefly) - skip it; the follow-up change event re-parses it
+        if ((err as NodeJS.ErrnoException).code === "ENOENT") {
+          console.warn(`[parse] ${fp} disappeared before it could be read, skipping`)
+          continue
+        }
         trace(`\nFailed to process markdown \`${fp}\``, err as Error)
       }
     }
