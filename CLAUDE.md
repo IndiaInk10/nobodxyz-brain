@@ -6,7 +6,7 @@
 
 - **문서의 원본은 `content/*.md`**. `_template.md` 포맷을 따라 마크다운으로 쓴다.
   - 개념은 frontmatter `tags`로 붙인다 → 그래프 뷰의 노드가 된다. 문서끼리는 `[[slug|표시명]]` 위키링크.
-  - **다이어그램은 ```d2 코드 블록** (빌드 시 `@terrastruct/d2` WASM으로 SVG 렌더, ELK 레이아웃, 자동 배치라 한글 라벨이 겹치지 않음). 색 강조는 `{ class: good }` / `bad` / `accent` / `muted`. 곡선·차트처럼 D2로 못 그리는 것만 인라인 SVG.
+  - **다이어그램은 ```d2 코드 블록** (빌드 시 `@terrastruct/d2` WASM으로 SVG 렌더, ELK 레이아웃, 자동 배치라 한글 라벨이 겹치지 않음). 색 강조는 `{ class: good }` / `bad` / `accent` / `muted`. 곡선·차트처럼 D2로 못 그리는 것은 rough.js 스크립트(`scripts/*.mjs`)로 손그림 SVG를 생성해 인라인한다(시드 고정, 수정 후 재생성해 붙여넣기).
   - 이모지와 장식 아이콘은 쓰지 않는다 — 구조는 텍스트로만 표시한다(근거: seductive details, 덜어내기 원칙).
   - 셀프 테스트는 `<details>`, 예시·판별법은 `> [!example]` 콜아웃, 개작 예시는 `> [!failure]` / `> [!success]` (콜아웃이 종류 표시를 붙이므로 별도 기호는 넣지 않는다).
 - **배포**: `git push` → GitHub(`IndiaInk10/nobodxyz-brain`, main) → Vercel 자동 배포 → https://nobodxyz-brain.vercel.app
