@@ -13,7 +13,7 @@ tags:
 
 > 작성 2026-08-31 · 자료 조사: Claude · 요약/답변: 사용자 · 근거: 2025–2026 피어리뷰 논문(Crossref·PubMed 확인), 고전은 원전으로만 표기
 
-## :circle-help: 이 문서가 답하는 질문
+## 이 문서가 답하는 질문
 
 - Q1. 왜 "다시 읽기"는 열심히 해도 남는 게 없는가?
 - Q2. 인출(스스로 꺼내기) 연습은 왜 그렇게 강력한가?
@@ -21,7 +21,7 @@ tags:
 - Q4. 글과 그림을 함께 쓰면 왜 더 잘 배우는가?
 - Q5. 자는 동안 뇌에서 무슨 일이 일어나기에 기억이 굳는가?
 
-## :brain: 핵심 — 내 말로 3줄
+## 핵심 — 내 말로 3줄
 
 > [!warning] 본문을 안 보고 써보세요
 > 원문을 보며 줄이는 요약은 효과가 낮아요(Dunlosky 2013). 안 보고 쓰기 = 자기 설명 + 인출 연습. 노트에 3줄로.
@@ -36,8 +36,8 @@ tags:
 > 어제 본 유튜브 썸네일은 다시 보면 "아 이거 봤지"(재인)라고 알지만, 지금 그 제목을 하나도 말하지 못한다(회상 실패). 다시 읽기는 썸네일 훑기와 같은 상태를 만든다.
 
 > [!info]- 연구 계보
-> :landmark: **2013** Dunlosky et al. 10개 기법 리뷰 — 다시 읽기·하이라이트에 low utility 판정
-> :refresh-cw: **2020s** 이를 뒤집은 연구 없음 — 최신 리뷰들에서도 결론 유지 `확증`
+> 원전 · **2013** Dunlosky et al. 10개 기법 리뷰 — 다시 읽기·하이라이트에 low utility 판정
+> 최신 · **2020s** 이를 뒤집은 연구 없음 — 최신 리뷰들에서도 결론 유지 `확증`
 
 출처: [Dunlosky et al. 2013, *PSPI*](https://journals.sagepub.com/doi/abs/10.1177/1529100612453266) · [2025 State-of-the-Art Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12292765/)
 
@@ -51,9 +51,9 @@ Karpicke & Roediger(2008)의 어휘 학습 실험: 일단 외운 뒤 **반복해
 > 이 문서의 사용법: 본문을 읽는 시간보다, 아래 "셀프 테스트"를 펼치기 전에 스스로 답해보는 시간이 실제 학습이 일어나는 시간이다.
 
 > [!info]- 연구 계보
-> :landmark: **2008** Karpicke & Roediger, *Science* — 실험실 어휘 학습: 반복 인출만이 지연 회상을 높임(≈80% vs ≈34%)
-> :refresh-cw: **2021** Yang et al., *Psychological Bulletin* 교실 메타분석(222개 연구) — 실제 교실에서도 g≈0.50 `확증`
-> :refresh-cw: **2024–25** 실패 조건(무피드백+객관식+교실)과 전이 한계 규명 · 복잡 개념·적용 문제로 확장 검증 `조건 추가`
+> 원전 · **2008** Karpicke & Roediger, *Science* — 실험실 어휘 학습: 반복 인출만이 지연 회상을 높임(≈80% vs ≈34%)
+> 최신 · **2021** Yang et al., *Psychological Bulletin* 교실 메타분석(222개 연구) — 실제 교실에서도 g≈0.50 `확증`
+> 최신 · **2024–25** 실패 조건(무피드백+객관식+교실)과 전이 한계 규명 · 복잡 개념·적용 문제로 확장 검증 `조건 추가`
 
 출처: [Karpicke & Roediger 2008, *Science*](https://www.science.org/doi/abs/10.1126/science.1152408) (원전) · [Yang et al. 2021, *Psychological Bulletin*](https://doi.org/10.1037/bul0000309) · [Glaser & Richter 2025, *Teaching of Psychology*](https://journals.sagepub.com/doi/10.1177/00986283231218943) · [2025, *Learning and Instruction*](https://www.sciencedirect.com/science/article/pii/S0959475225001434)
 
@@ -86,9 +86,9 @@ Karpicke & Roediger(2008)의 어휘 학습 실험: 일단 외운 뒤 **반복해
 > 복습 로그의 +1일 → +3일 → +1주 → +2주 → +1달 간격이 이 곡선을 따라 설계돼 있다. 복습 = 셀프 테스트 다시 풀기이지, 본문 다시 읽기가 아니다.
 
 > [!info]- 연구 계보
-> :landmark: **1885** Ebbinghaus — 망각 곡선과 간격 효과 최초 보고 → **2013** Dunlosky 리뷰에서 high utility 등급
-> :refresh-cw: **2025** *Cell Reports* — "왜"를 규명: 긴 간격이 vmPFC의 과거 경험 재부호화를 유발, 이것이 기억을 예측 `기제 규명`
-> :refresh-cw: **2025** 수학 학습 메타분석 — 실제 교과에서 간격+인출 조합 확증 `확증`
+> 원전 · **1885** Ebbinghaus — 망각 곡선과 간격 효과 최초 보고 → **2013** Dunlosky 리뷰에서 high utility 등급
+> 최신 · **2025** *Cell Reports* — "왜"를 규명: 긴 간격이 vmPFC의 과거 경험 재부호화를 유발, 이것이 기억을 예측 `기제 규명`
+> 최신 · **2025** 수학 학습 메타분석 — 실제 교과에서 간격+인출 조합 확증 `확증`
 
 출처: [2025, *Cell Reports* — vmPFC 재부호화](https://doi.org/10.1016/j.celrep.2025.115232) · [2025, *Educational Psychology Review* — 수학 학습 메타분석](https://link.springer.com/article/10.1007/s10648-025-10035-1) · [Dunlosky et al. 2013](https://journals.sagepub.com/doi/abs/10.1177/1529100612453266)
 
@@ -119,8 +119,8 @@ wm.s -> mem
 > 이 문서가 개념마다 다이어그램 1개를 붙이되 장식 이미지를 쓰지 않는 이유가 정확히 이 원리다.
 
 > [!info]- 연구 계보
-> :landmark: **1971/86** Paivio 이중 부호화 · **1988** Sweller 인지 부하 · **2001~** Mayer 멀티미디어 학습 원리
-> :refresh-cw: **2023–25** 경계 조건 정밀화 — 무관한 그림(seductive details)은 해로움, 사전 지식이 높으면 그림의 이득 감소, Mayer 스스로 경계조건 규명 촉구(2024) → 591개 효과 메타분석(2025) `조건 추가`
+> 원전 · **1971/86** Paivio 이중 부호화 · **1988** Sweller 인지 부하 · **2001~** Mayer 멀티미디어 학습 원리
+> 최신 · **2023–25** 경계 조건 정밀화 — 무관한 그림(seductive details)은 해로움, 사전 지식이 높으면 그림의 이득 감소, Mayer 스스로 경계조건 규명 촉구(2024) → 591개 효과 메타분석(2025) `조건 추가`
 
 출처: Paivio 1986, *Mental Representations* · Sweller 1988, *Cognitive Science* (원전) · [2025, *Educational Research Review* — Mayer 원리 메타분석](https://doi.org/10.1016/j.edurev.2025.100730) · [2023, *Instructional Science* — seductive details](https://link.springer.com/article/10.1007/s11251-023-09632-w)
 
@@ -146,12 +146,12 @@ day -> rep -> ctx -> next
 > 복습 간격(+1일, +3일…)이 "일 단위"인 이유: 세션 사이에 수면이 끼어야 공고화 사이클이 돈다. 같은 날 3번 복습보다 3일에 걸친 3번이 뇌과학적으로 다른 사건이다.
 
 > [!info]- 연구 계보
-> :landmark: **1994** Wilson & McNaughton — 수면 중 해마 재생(replay) 발견 · **2010** Diekelmann & Born — 능동적 시스템 공고화 모델
-> :refresh-cw: **2024–26** 총 수면량이 아닌 서파·방추·리플의 시간적 커플링이 관건 · 재생은 보상 예측 신호에 편향 · 수면이 해마 인코딩 용량을 리셋 `기제 정밀화`
+> 원전 · **1994** Wilson & McNaughton — 수면 중 해마 재생(replay) 발견 · **2010** Diekelmann & Born — 능동적 시스템 공고화 모델
+> 최신 · **2024–26** 총 수면량이 아닌 서파·방추·리플의 시간적 커플링이 관건 · 재생은 보상 예측 신호에 편향 · 수면이 해마 인코딩 용량을 리셋 `기제 정밀화`
 
 출처: [2026, *Neuropsychologia*](https://pubmed.ncbi.nlm.nih.gov/41260295/) · [2025, *npj Science of Learning*](https://www.nature.com/articles/s41539-025-00349-8) · [2025, *Nature Communications*](https://www.nature.com/articles/s41467-025-65354-2) · [2025 온라인, *Advanced Science*](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202416480)
 
-### :triangle-alert: 경계 조건 — 최신 검증(2024–2026)이 "같지 않다"고 밝힌 부분
+### 경계 조건 — 최신 검증(2024–2026)이 "같지 않다"고 밝힌 부분
 
 위 원리들은 가장 많이 재현된 발견에 속하지만, **무조건 통하는 만능이 아니다**:
 
@@ -164,7 +164,7 @@ day -> rep -> ctx -> next
 
 출처: [2024, *Int. J. STEM Education*](https://link.springer.com/article/10.1186/s40594-024-00468-5) · [Glaser & Richter, *Teaching of Psychology*](https://journals.sagepub.com/doi/10.1177/00986283231218943) · [2025, *Educational Research Review*](https://doi.org/10.1016/j.edurev.2025.100730) · [2023, *Instructional Science*](https://link.springer.com/article/10.1007/s11251-023-09632-w)
 
-## :circle-check: 셀프 테스트
+## 셀프 테스트
 
 > [!tip] 펼치기 전에 소리 내어 말하거나 손으로 직접 써보세요. 그 몇 초가 학습이에요.
 
@@ -204,7 +204,7 @@ NREM 수면 중 해마가 낮의 경험을 재생해 피질로 이전(능동적 
 
 </details>
 
-## :calendar-days: 복습 로그
+## 복습 로그
 
 > [!tip] 복습할 땐 위 셀프 테스트를 다시 풀어보세요(본문 다시 읽기 아님). 틀린 문항이 있으면 다음 간격을 절반으로 줄이세요.
 

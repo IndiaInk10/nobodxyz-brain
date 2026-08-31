@@ -57,8 +57,6 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       // ```d2 blocks → inline SVG at build time (auto layout, no client JS)
       Plugin.D2Diagrams({ layout: "elk", themeID: 1, maxWidth: 560, scale: 0.75 }),
-      // :icon-name: → inline Lucide SVG
-      Plugin.LucideIcons(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),

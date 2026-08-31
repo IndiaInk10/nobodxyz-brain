@@ -12,7 +12,7 @@ tags:
 
 > 작성 2026-08-31 · 자료 조사: Claude · 요약/답변: 사용자 · 근거: 실험 연구(2024–2026) + 인지과학 + 작가 경험칙의 수렴
 
-## :circle-help: 이 문서가 답하는 질문
+## 이 문서가 답하는 질문
 
 - Q1. 왜 어떤 문장은 읽기 힘든가? — 독자의 머릿속에서 무슨 일이 벌어지나
 - Q2. 한 문장에는 왜 하나의 뜻만 담아야 하는가?
@@ -20,7 +20,7 @@ tags:
 - Q4. 왜 많이 아는 사람일수록 못 읽게 쓰는가?
 - Q5. 무엇을 덜어내야 하는가 — 그리고 덜어내면 안 되는 경우는?
 
-## :brain: 핵심 — 내 말로 3줄
+## 핵심 — 내 말로 3줄
 
 > [!warning] 본문을 안 보고 써보세요
 > 안 보고 쓰기 = 자기 설명 + 인출 연습. 노트에 3줄로.
@@ -36,13 +36,13 @@ tags:
 
 ```d2
 direction: right
-bad: "✗ 멀다 — 작업기억 부담 누적" {
+bad: "멀다 — 작업기억 부담 누적" {
   direction: down
   s: "주어" { class: bad }
   v: "…동사" { class: bad }
   s -> v: "긴 수식절 28어절"
 }
-good: "✓ 붙인다 — 즉시 해소" {
+good: "붙인다 — 즉시 해소" {
   direction: down
   s: "주어" { class: good }
   v: "동사." { class: good }
@@ -127,7 +127,7 @@ Zinsser: "좋은 글의 비밀은 모든 문장을 가장 깨끗한 부품만 �
 
 출처: [Orwell 1946, "Politics and the English Language"](https://themindcollection.com/orwells-writing-rules/) · Zinsser, *On Writing Well* · [능동/수동 이해 실험](https://www.researchgate.net/publication/396687358_Experimental_Study_In_Comparing_The_Effects_Of_Active_And_Passive_Sentences_On_Reader_Comprehension_In_Academic_Texts) · [2025 아이트래킹 가독성 연구](https://arxiv.org/html/2502.11150v1)
 
-## :circle-check: 셀프 테스트
+## 셀프 테스트
 
 > [!tip] 펼치기 전에 소리 내어 말하거나 손으로 직접 써보세요. 그 몇 초가 학습이에요.
 
@@ -167,7 +167,7 @@ Zinsser: "좋은 글의 비밀은 모든 문장을 가장 깨끗한 부품만 �
 
 </details>
 
-## :calendar-days: 복습 로그
+## 복습 로그
 
 > [!tip] 복습할 땐 셀프 테스트를 다시 풀고, **실전 적용 1회** — 최근에 쓴 글 하나를 위 원칙으로 고쳐보세요.
 
