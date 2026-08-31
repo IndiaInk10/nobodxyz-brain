@@ -81,20 +81,20 @@ tags:
 
 문장들이 "아는 것 → 새 것 → (그 새 것이 다음 문장의) 아는 것 → …"으로 사슬처럼 이어질 때 글이 "흐른다"고 느껴진다. 이는 [[learning-science|학습의 뇌과학]]에서 본 "사전 지식에 새 것을 연결하기"와 같은 원리다.
 
-<svg viewBox="0 0 560 150" role="img" aria-label="given-new 사슬" style="max-width:100%;height:auto">
+<svg viewBox="0 0 560 176" role="img" aria-label="given-new 사슬" style="max-width:100%;height:auto">
   <g fill="none" stroke="currentColor" stroke-width="1.5" opacity=".8">
-    <rect x="20" y="20" width="240" height="34" rx="8"/>
-    <rect x="160" y="70" width="240" height="34" rx="8"/>
-    <rect x="300" y="116" width="240" height="34" rx="8"/>
+    <rect x="20" y="12" width="240" height="34" rx="8"/>
+    <rect x="160" y="66" width="240" height="34" rx="8"/>
+    <rect x="300" y="120" width="240" height="34" rx="8"/>
   </g>
   <g font-size="12" fill="currentColor" text-anchor="middle">
-    <text x="90" y="42">아는 것</text><text x="205" y="42" font-weight="700">새 것 A</text>
-    <text x="230" y="92">A (이제 아는 것)</text><text x="345" y="92" font-weight="700">새 것 B</text>
-    <text x="370" y="138">B (이제 아는 것)</text><text x="485" y="138" font-weight="700">새 것 C</text>
+    <text x="90" y="34">아는 것</text><text x="205" y="34" font-weight="700">새 것 A</text>
+    <text x="230" y="88">A (이제 아는 것)</text><text x="345" y="88" font-weight="700">새 것 B</text>
+    <text x="370" y="142">B (이제 아는 것)</text><text x="485" y="142" font-weight="700">새 것 C</text>
   </g>
   <g style="stroke:var(--secondary)" stroke-width="2" fill="none">
-    <path d="M205,54 C205,66 220,62 225,70"/>
-    <path d="M345,104 C345,116 360,112 365,116"/>
+    <path d="M205,46 C205,58 222,54 226,66"/>
+    <path d="M345,100 C345,112 362,108 366,120"/>
   </g>
 </svg>
 
