@@ -19,7 +19,11 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> =
   return {
     name: "GitHubFlavoredMarkdown",
     markdownPlugins() {
-      return opts.enableSmartyPants ? [remarkGfm, smartypants] : [remarkGfm]
+      // singleTilde: false — GFM은 기본값으로 ~one~ 도 취소선으로 렌더한다.
+      // 한 줄에 "15~17시, 16~18시"처럼 범위 표기 ~ 가 두 번 오면 그 사이가
+      // 취소선이 되는 버그가 있어 이중 틸드(~~)만 취소선으로 허용한다.
+      const gfm = [remarkGfm, { singleTilde: false }] as const
+      return opts.enableSmartyPants ? [gfm, smartypants] : [gfm]
     },
     htmlPlugins() {
       if (opts.linkHeadings) {
