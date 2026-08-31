@@ -2,6 +2,8 @@
 title: 어투의 과학
 description: 누구에게, 어떤 목소리로 쓸 것인가
 date: 2026-08-31
+aliases:
+  - tone-of-writing
 tags:
   - 개인화-원리
   - 사회적-에이전시

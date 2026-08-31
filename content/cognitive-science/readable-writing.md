@@ -2,6 +2,8 @@
 title: 가독성의 과학
 description: 잘 읽히는 글은 어떻게 쓰는가
 date: 2026-08-31
+aliases:
+  - readable-writing
 tags:
   - 작업기억
   - 인지-부하

@@ -15,8 +15,8 @@ const doc = dom.window.document
 const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg")
 svg.setAttribute("xmlns", "http://www.w3.org/2000/svg")
 svg.setAttribute("viewBox", "0 0 560 220")
-svg.setAttribute("width", "520")
-svg.setAttribute("height", "204")
+svg.setAttribute("width", "640")
+svg.setAttribute("height", "251")
 svg.setAttribute("role", "img")
 svg.setAttribute("aria-label", "망각 곡선과 간격 복습")
 
