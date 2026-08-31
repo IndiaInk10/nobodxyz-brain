@@ -12,13 +12,14 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
-    "quartz": "./quartz/bootstrap-cli.mjs",
+    "quartz": "node ./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
+  "packageManager": "pnpm@11.4.0",
   "engines": {
     "npm": ">=10.9.2",
     "node": ">=22"
@@ -32,7 +33,7 @@
     "quartz"
   ],
   "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
+    "quartz": "node ./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
@@ -98,6 +99,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
+    "@terrastruct/d2": "^0.1.33",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
