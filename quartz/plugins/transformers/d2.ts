@@ -16,6 +16,8 @@ export interface Options {
   maxWidth: number
   /** Extra scale applied to every diagram (1 = D2's natural size). */
   scale: number
+  /** Hand-drawn rendering. */
+  sketch: boolean
 }
 
 const defaultOptions: Options = {
@@ -24,8 +26,9 @@ const defaultOptions: Options = {
   pad: 12,
   maxWidth: 640,
   scale: 0.85,
+  sketch: false,
   prelude: `
-# 크기·색 기본값: 본문 글자에 가까운 크기, 연한 배경, 컨테이너 제목 축소
+# shared defaults: body-sized type, light fills, smaller container titles
 **.style.font-size: 15
 **.style.fill: "#ffffff"
 **.style.stroke: "#8f8b82"
@@ -125,7 +128,7 @@ export const D2Diagrams: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                 layout: opts.layout,
                 themeID: opts.themeID,
                 pad: opts.pad,
-                sketch: false,
+                sketch: opts.sketch,
               })
               const svg = sizeFromViewBox(
                 await d2.render(compiled.diagram, compiled.renderOptions),

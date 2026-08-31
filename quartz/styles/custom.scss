@@ -1,7 +1,5 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-
 // D2 diagrams rendered at build time
 figure.d2 {
   margin: 1.2rem 0;
@@ -13,12 +11,8 @@ figure.d2 {
   }
 }
 
-// 근거 기반 본문 타이포그래피
-// - 폰트는 익숙한 본고딕(Noto Sans KR) 유지: 단일 최적 폰트는 없고 이해도는
-//   폰트와 무관, 익숙함이 지배 (Wallace et al. 2022, ACM TOCHI).
-// - 한글은 라틴보다 획이 많아 본문을 한 단계 키우고(17px) 행간을 넉넉히(1.75).
-// - word-break: keep-all — 어절 단위 줄바꿈 (한글 가독성 기본기).
-// - 자간 소폭 확대: 본고딕 모바일 가독성 연구의 권고.
+// Korean body type: 17px/1.75 with word-unit wrapping (keep-all).
+// Font stays Noto Sans KR — no font reads fastest for everyone (Wallace et al. 2022).
 article {
   font-size: 1.0625rem;
   line-height: 1.75;
