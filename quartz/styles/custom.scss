@@ -33,3 +33,12 @@ pre.d2-error {
   white-space: pre-wrap;
   font-size: 0.85rem;
 }
+
+// Inline hand-drawn charts (rough.js) — center in the article column.
+// figure.d2 svg keeps its own max-width: none (more specific selector wins).
+article svg {
+  display: block;
+  margin: 1.2rem auto;
+  max-width: 100%;
+  height: auto;
+}

@@ -10,8 +10,9 @@ title: Nobodxyz Brain
 |---|---|
 | [[learning-science\|학습의 뇌과학]] | 어떻게 배워야 오래 남는가 — 인출·간격·수면 |
 | [[readable-writing\|가독성의 과학]] | 잘 읽히는 글은 어떻게 쓰는가 |
-| [[tone-of-writing\
-| [[color-for-learning|색의 인지과학]] | 어떤 색이 아니라, 색을 어디에 쓰는가 ||어투의 과학]] | 누구에게, 어떤 목소리로 쓸 것인가 |
+| [[tone-of-writing\|어투의 과학]] | 누구에게, 어떤 목소리로 쓸 것인가 |
+| [[color-for-learning\|색의 인지과학]] | 어떤 색이 아니라, 색을 어디에 쓰는가 |
+| [[task-switching-and-rest\|전환과 회복의 뇌과학]] | 프로젝트 전환과 휴식은 어떻게 설계하는가 |
 
 ## 문서 사용법
 
