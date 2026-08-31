@@ -12,7 +12,9 @@ title: Nobodxyz Brain
 | [[readable-writing\|가독성의 과학]] | 잘 읽히는 글은 어떻게 쓰는가 |
 | [[tone-of-writing\|어투의 과학]] | 누구에게, 어떤 목소리로 쓸 것인가 |
 | [[color-for-learning\|색의 인지과학]] | 어떤 색이 아니라, 색을 어디에 쓰는가 |
-| [[task-switching-and-rest\|전환과 회복의 뇌과학]] | 프로젝트 전환과 휴식은 어떻게 설계하는가 |
+| [[task-switching\|전환의 뇌과학]] | 앞의 일이 눈에 밟히는 이유 — 주의 잔류물과 복귀 계획 |
+| [[rest-and-recovery\|휴식의 뇌과학]] | 어떤 휴식이 무엇을 회복시키는가 |
+| [[daily-rhythm\|리듬과 하루 설계]] | 90분 주기설·오후 슬럼프, 그리고 하루 시간표 |
 
 ## 문서 사용법
 
