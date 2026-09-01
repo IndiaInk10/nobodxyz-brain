@@ -10,7 +10,7 @@ tags:
 ---
 
 > 작성 2026-09-01 · 자료 조사: Claude · 요약/답변: 사용자 · 근거: 피어리뷰 논문(학술 DB 확인), 이론·실증 구분 표기
-> 함께 읽기: [[task-switching|전환의 뇌과학]] · [[workday-design|고정 근무시간의 설계]] · [[meetings|미팅이 있는 날]]
+> 함께 읽기: [[task-switching|전환의 뇌과학]] · [[workday-design|고정 근무시간의 설계]] · [[meetings|미팅이 있는 날]] · [[incoming-issues|중간에 들어오는 이슈]]
 
 ## 이 문서가 답하는 질문
 
