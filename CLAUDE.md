@@ -10,7 +10,7 @@
   - 이모지와 장식 아이콘은 쓰지 않는다 — 구조는 텍스트로만 표시한다(근거: seductive details, 덜어내기 원칙).
   - 셀프 테스트는 `<details>`, 예시·판별법은 `> [!example]` 콜아웃, 개작 예시는 `> [!failure]` / `> [!success]` (콜아웃이 종류 표시를 붙이므로 별도 기호는 넣지 않는다).
 - **배포**: `git push` → GitHub(`IndiaInk10/nobodxyz-brain`, main) → Vercel 자동 배포 → https://nobodxyz-brain.vercel.app
-  - 로컬 미리보기: `npx quartz build --serve --port 8080`
+  - 로컬 미리보기: `npm run dev` (= `node ./quartz/bootstrap-cli.mjs build --serve --port 8080`. `npx quartz`는 이 PC에서 안 잡힘)
   - git 원격 `origin`은 SSH 별칭 `github-personal`(개인 계정). `upstream`은 Quartz 원본(`npx quartz update`용).
 - `_template.md`, `CLAUDE.md`는 저장소 루트에 둔다 (Quartz는 `content/`만 발행하므로 사이트에 노출되지 않음).
 
