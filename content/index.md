@@ -12,6 +12,7 @@ title: Nobodxyz Brain
 | [[readable-writing\|가독성의 과학]] | 잘 읽히는 글은 어떻게 쓰는가 |
 | [[tone-of-writing\|어투의 과학]] | 누구에게, 어떤 목소리로 쓸 것인가 |
 | [[color-for-learning\|색의 인지과학]] | 어떤 색이 아니라, 색을 어디에 쓰는가 |
+| [[music-and-learning\|음악과 학습]] | 어떤 음악이 돕는가, 아니면 음악 자체가 방해인가 — 시점·과제·가사·개인차 |
 | [[task-switching\|전환의 뇌과학]] | 앞의 일이 눈에 밟히는 이유 — 주의 잔류물과 복귀 계획 |
 | [[rest-and-recovery\|휴식의 뇌과학]] | 어떤 휴식이 무엇을 회복시키는가 |
 | [[daily-rhythm\|하루의 리듬]] | 하루 각성 곡선 — 슬럼프·수면 관성·리듬 교란 변수 |
